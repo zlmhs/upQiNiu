@@ -95,7 +95,10 @@
           {
             title : "Image files",
             extensions : "jpg,gif,png"
-          } ]
+          },{
+            title : "Video files",
+            extensions : "mp4"
+          }]
          },
 
         //x_vars : {
@@ -137,7 +140,8 @@
                    var domain = up.getOption('domain');
                    var sourceLink = domain +"/"+ obj.filename;
                    $('#'+obj.conID).html('<img src="'+sourceLink+'" alt="" />');
-                   $('#addr').html(sourceLink+',复制链接在浏览器打开就可以看到你上传的图片了');
+                   $('#addr').html(sourceLink+',复制链接在浏览器打开就可以看到你上传的文件了');
+                   var video = sourceLink?vframe/jpg/offset/10/w/640/h/360 ;//获取到你上传成功后的视频的哪一秒的帧，w是宽，h是高
             },
             'Error': function(up, err, errTip) {
                    //上传出错时，处理相关的事情
