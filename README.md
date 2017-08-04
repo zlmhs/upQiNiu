@@ -9,4 +9,4 @@
 * 调用setupQiniuUploader（）函数时，可以不用按照我的写，因为每个公司的接口格式不一样，只需要把需要的参数传进去就可以
 *setupQiniuUploader（token,一个对象）;这个对象包含：文件名,上传选择的点选按钮的id,上传区域dom的id
 * 上传视频到七牛，需要一个视频帧缩略图做封面 domain+filename+?vframe/jpg/offset/10/w/640/h/360
-*第一个10是多少秒的图，w是宽，h是高（例子：http://otqmd5q2x.bkt.clouddn.com/1501836243377?vframe/jpg/offset/10）
+*第一个10是多少秒的图，w是宽，h是高（例子：http://otqmd5q2x.bkt.clouddn.com/1501836243377?vframe/jpg/offset/10    ）
